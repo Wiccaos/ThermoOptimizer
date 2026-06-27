@@ -95,7 +95,7 @@ def inicializar_interfaz():
 
     # ── Ventana raíz ──────────────────────────────────────────
     root = tk.Tk()
-    root.title("ThermoOptimizer Pro  |  Monitor Térmico en Tiempo Real")
+    root.title("ThermoOptimizer  |  Monitor Térmico en Tiempo Real")
     root.geometry("1280x720")
     root.configure(bg=BG_DARK)
     root.minsize(1000, 600)
