@@ -1,3 +1,4 @@
+import os
 import tkinter as tk
 from tkinter import scrolledtext, ttk
 import psutil
@@ -99,12 +100,15 @@ def inicializar_interfaz():
     root.configure(bg=BG_DARK)
     root.minsize(1000, 600)
 
-    # Cierre limpio: cancela el bucle de after antes de destruir
+    # Cierre limpio: cancela el after pendiente, cierra matplotlib
     _job_id = [None]
     def on_cerrar():
         if _job_id[0]:
             root.after_cancel(_job_id[0])
+        plt.close("all")
+        root.quit()
         root.destroy()
+        os._exit(0)
     root.protocol("WM_DELETE_WINDOW", on_cerrar)
 
     # ── Barra de título superior ──────────────────────────────
