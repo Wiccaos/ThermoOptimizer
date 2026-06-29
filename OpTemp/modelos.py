@@ -21,7 +21,6 @@ class ModeloTermico:
         """
         T(x) = 0.004x² + 0.1x + 35
         Modela la temperatura del microprocesador según su carga.
-        Fuente: polinomio cuadrático validado por IEEE (2024).
         """
         return 0.004 * (carga ** 2) + 0.1 * carga + 35
 

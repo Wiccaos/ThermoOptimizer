@@ -1,5 +1,5 @@
 # ============================================================
-#  main.py — Punto de entrada de OpTemp
+#  Ejecución de la aplicación
 # ============================================================
 from interfaz import AplicacionOpTemp
 

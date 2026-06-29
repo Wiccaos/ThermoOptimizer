@@ -1,5 +1,5 @@
 # ============================================================
-#  simulador.py — Escenario de demostración de OpTemp
+#  Escenario de demostración de OpTemp
 # ============================================================
 import numpy as np
 

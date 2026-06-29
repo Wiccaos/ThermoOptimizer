@@ -1,5 +1,5 @@
 # ============================================================
-#  interfaz.py — Interfaz gráfica de OpTemp
+#  Interfaz gráfica de OpTemp
 # ============================================================
 import os
 import tkinter as tk
@@ -25,13 +25,10 @@ from simulador import SimuladorCarga
 
 class AplicacionOpTemp:
     """
-    Clase principal de la aplicación OpTemp.
-
-    Responsabilidades:
-        - Construir y gestionar la ventana Tkinter.
-        - Ejecutar el bucle de predicción térmica.
-        - Delegar cálculos a ModeloTermico.
-        - Delegar el escenario de demostración a SimuladorCarga.
+    - Construir y gestionar la ventana Tkinter.
+    - Ejecutar el bucle de predicción térmica.
+    - Delegar cálculos a ModeloTermico.
+    - Delegar el escenario de demostración a SimuladorCarga.
     """
 
     def __init__(self):
@@ -153,7 +150,7 @@ class AplicacionOpTemp:
         self._boton(f2, "🗑  LIMPIAR REGISTRO", self._limpiar_log, TEXT_DIM, BG_CARD)
 
     # ══════════════════════════════════════════════════════════
-    #  HELPERS DE WIDGETS
+    #  WIDGETS
     # ══════════════════════════════════════════════════════════
 
     def _tarjeta(self, parent: tk.Frame, titulo: str,

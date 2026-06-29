@@ -1,5 +1,5 @@
 # ============================================================
-#  config.py — Constantes globales de OpTemp
+#  Constantes globales de OpTemp
 # ============================================================
 
 # Tiempos
