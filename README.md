@@ -1,6 +1,6 @@
 # OpTemp — Sistema Predictivo de Eficiencia Térmica
 
-> Proyecto final ABPro — Cálculo Diferencial · Ingeniería en Informática · INACAP Temuco  
+> Proyecto Cálculo Diferencial · Ingeniería en Informática · INACAP Temuco  
 > **Docente:** Marisel Hueche Caifual · **Fecha de presentación:** 02 de Julio de 2026
 
 **OpTemp** es un prototipo de software que aplica cálculo diferencial para **predecir** el sobrecalentamiento de microprocesadores antes de que ocurra, en lugar de reaccionar cuando ya es demasiado tarde.
